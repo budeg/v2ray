@@ -1,4 +1,4 @@
-name = "changli"
+name = "vless"
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
@@ -7,8 +7,8 @@ account_id = "05f49c4336ab8d1df4fabeeebbcdb083"
 workers_dev = true
 
 [[kv_namespaces]]
-binding = "YUMI"
-id = "5067ad020c154b56966b5e6726f8bc4c"
+binding = "SIREN"
+id = "81f638e6116145d5be6ec607b4411870"
 
 [build]
 command = "cargo install worker-build && worker-build --release"
